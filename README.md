@@ -4,8 +4,8 @@ A full-stack web application designed to provide a centralized platform for crea
 
 **Features**
 
--**User Authentication** – Secure signup, login, JWT-based authentication, and profile management.                                                                                       
--**Session Management** – Create, update, view, and manage live sessions with unique join codes.                                                                               
+- **User Authentication** – Secure signup, login, JWT-based authentication, and profile management.                                                                                       
+~**Session Management** – Create, update, view, and manage live sessions with unique join codes.                                                                               
 -**Interactive Activities** – Create and manage polls, quizzes, MCQs, and other session activities.                                                                                
 -**Participant Management** – Allow participants to join sessions and track their participation.                                                                                 
 -**Real-Time Communication** – WebSocket-based communication for live session events and updates.                                                                                    
