@@ -68,8 +68,11 @@ Live-Session-Toolkit/
     
 **Installation & Setup**                                                                                                                                                                                
 **1. Clone the Repository**                                                                                                                                                                                                                    
-git clone <your-github-repository-url>                                                                                                                                                                                
-cd Live-Session-Toolkit                                                                                                                                                                                                                               
+```bash
+git clone <your-github-repository-url>
+cd Live-Session-Toolkit
+```
+
 **2. Frontend Setup**                                                                                                                                                                                                                                
 Navigate to the frontend:                                                                                                                                                                                                                                                                              
 cd my-app                                                                                                                                                                                                                                      
