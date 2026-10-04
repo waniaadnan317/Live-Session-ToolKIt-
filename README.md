@@ -38,11 +38,11 @@ SQLAlchemy ORM
 
 **App Preview**
 <img width="842" height="383" alt="image" src="https://github.com/user-attachments/assets/82b87b43-d3d6-4abe-8e02-1a978e297845" />
-<img width="1352" height="561" alt="WhatsApp Image 2026-09-21 at 9 59 43 PM" src="https://github.com/user-attachments/assets/28977223-393f-4ac8-883d-c7557434e177" />
-<img width="1352" height="561" alt="WhatsApp Image 2026-09-21 at 9 59 43 PM" src="https://github.com/user-attachments/assets/f113a38f-4ce6-4ab2-89e5-becd4bc5a4a9" />
-<img width="1352" height="561" alt="WhatsApp Image 2026-09-21 at 9 59 43 PM" src="https://github.com/user-attachments/assets/6c273d7f-db3a-4f54-a2cc-813eee15e3a5" />
-<img width="1352" height="561" alt="WhatsApp Image 2026-09-21 at 9 59 43 PM" src="https://github.com/user-attachments/assets/56c8d145-0fb6-4cb0-b9c8-f60f59f04f13" />
-<img width="1352" height="561" alt="WhatsApp Image 2026-09-21 at 9 59 43 PM" src="https://github.com/user-attachments/assets/5e8c8834-8836-4abf-a993-3349a0109bec" />
+<img width="839" height="387" alt="image" src="https://github.com/user-attachments/assets/fd6e0dba-11c2-4f58-8518-f1f9a3c75e11" />
+<img width="836" height="337" alt="image" src="https://github.com/user-attachments/assets/5ebe1ca9-9b13-4a99-a1ca-966bab87f041" />
+<img width="847" height="361" alt="image" src="https://github.com/user-attachments/assets/a5dcd760-c7ef-4eca-96c7-723ad683c61b" />
+<img width="837" height="336" alt="image" src="https://github.com/user-attachments/assets/2f82ee99-58c6-4bd6-a666-6ec1efce4c5c" />
+<img width="830" height="350" alt="image" src="https://github.com/user-attachments/assets/bd673a75-e5ae-4c40-9187-6b5c7ac97d82" />
 
 **Project Structure**                                                                                                                                                                                
 Live-Session-Toolkit/                                                                                                                                                                                        
