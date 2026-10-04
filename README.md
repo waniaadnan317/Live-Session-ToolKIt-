@@ -46,6 +46,7 @@ SQLAlchemy ORM
 <img width="830" height="350" alt="image" src="https://github.com/user-attachments/assets/bd673a75-e5ae-4c40-9187-6b5c7ac97d82" />
 
 **Project Structure**                                                                                                                                                                                
+```bash
 Live-Session-Toolkit/                                                                                                                                                                                        
 │                                                                                                                                                                                    
 ├── my-app/                 # React frontend                                                                                                                                                                                
@@ -64,7 +65,8 @@ Live-Session-Toolkit/
     ├── alembic/                                                                                                                                                                                                    
     ├── tests/                                                                                                                                                                                                                        
     ├── requirements.txt                                                                                                                                                                                            
-    └── .env.example                                                                                                                                                                    
+    └── .env.example
+```                                                                                                                                                                   
     
 **Installation & Setup**                                                                                                                                                                                
 **1. Clone the Repository**                                                                                                                                                                                                                    
@@ -75,29 +77,51 @@ cd Live-Session-Toolkit
 
 **2. Frontend Setup**                                                                                                                                                                                                                                
 Navigate to the frontend:                                                                                                                                                                                                                                                                              
-cd my-app                                                                                                                                                                                                                                      
+```bash
+cd my-app
+```                                                                                                                                                                                                                                      
 Install dependencies:                                                                                                                                                                                                        
-npm install                                                                                                                                                                                                    
+```bash
+npm install
+```                                                                                                                                                                                                    
 Start the development server:                                                                                                                                                                                        
-npm run dev                                                                                                                                                                                            
+```bash
+npm run dev
+```                                                                                                                                                                                            
 The frontend will run on:                                                                                                                                                                                                         
-http://localhost:5173                                                                                                                                                                                                    
+```bash
+http://localhost:5173
+```                                                                                                                                                                                                    
 **3. Backend Setup**                                                                                                                                                                                                                                                                                                                    
 Open a new terminal and navigate to the backend:                                                                                                                                                                                                                                                        
-cd backend                                                                                                                                                                                                                    
+```bash
+cd backend
+```                                                                                                                                                                                                                    
 Create a virtual environment:                                                                                                                                                                                                                
-python -m venv venv                                                                                                                                                                                            
+```bash
+python -m venv venv
+```                                                                                                                                                                                            
 Activate it on Windows:                                                                                                                                                               
-.\venv\Scripts\Activate.ps1                                                                                                                                                                                    
+```bash
+.\venv\Scripts\Activate.ps1
+```                                                                                                                                                                                    
 Install the required packages:                                                                                                                                                                                    
-pip install -r requirements.txt                                                                                                                                                                                                                        
-Create your .env file using .env.example as a reference.                                                                                                                                                    
+```bash
+pip install -r requirements.txt
+```                                                                                                                                                                                                                        
+Create your ```bash.env``` file using ```bash.env.example``` as a reference.                                                                                                                                                    
 Start the FastAPI server:                                                                                                                                                                                           
-uvicorn app.main:app --reload                                                                                                                                                                                
+```bash
+uvicorn app.main:app --reload
+```                                                                                                                                                                                
 The backend API will run on:                                                                                                                                                                                
-http://127.0.0.1:8000                                                                                                                                                                                                    
+```bash
+http://127.0.0.1:8000
+```                                                                                                                                                                                                    
 API documentation is available at:                                                                                                                                                                                                
-http://127.0.0.1:8000/docs                                                                                                                                                                                            
+```bash
+http://127.0.0.1:8000/docs
+```                                                                                                                                                                                            
 **API**                                                                                                                                                                                                                                    
 The backend provides RESTful endpoints for:                                                                                                                                                                            
 Authentication                                                                                                                                                                                                            
