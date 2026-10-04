@@ -16,14 +16,14 @@ A full-stack web application designed to provide a centralized platform for crea
 - **Analytics** – Track participants, responses, activities, accuracy, participation, and engagement.                                                                           
 - **RESTful API** – Structured backend APIs for communication between the frontend and backend.                                                                                    
 - **Database Integration** – SQLAlchemy-based database architecture with SQLite support.                                                                                         
-**Technology Stack**                                                                                                                                                               
-**Frontend**                                                                                                                                                                       
+## **Technology Stack**                                                                                                                                                               
+### **Frontend**                                                                                                                                                                       
 - React.js                                                                                                                                                                        
 - JavaScript                                                                                                                                                                        
 - HTML5                                                                                                                                                                            
 - CSS3                                                                                                                                                                                                                           
 - Vite                                                                                                                                                                                            
-**Backend**                                                                                                                                                                                        
+### **Backend**                                                                                                                                                                                        
 - Python                                                                                                                                                                                        
 - FastAPI                                                                                                                                                                        
 - SQLAlchemy                                                                                                                                                                            
@@ -31,11 +31,11 @@ A full-stack web application designed to provide a centralized platform for crea
 - Alembic                                                                                                                                                                                                                    
 - JWT Authentication                                                                                                                                                                                                
 - WebSockets                                                                                                                                                                                    
-**Database**                                                                                                                                                                            
+### **Database**                                                                                                                                                                            
 - SQLite                                                                                                                                                                                                
 - SQLAlchemy ORM                                                                                                                                                                                    
 
-**App Preview**
+## **App Preview**
 
 <img width="842" height="383" alt="image" src="https://github.com/user-attachments/assets/82b87b43-d3d6-4abe-8e02-1a978e297845" />
 <img width="839" height="387" alt="image" src="https://github.com/user-attachments/assets/fd6e0dba-11c2-4f58-8518-f1f9a3c75e11" />
@@ -44,7 +44,7 @@ A full-stack web application designed to provide a centralized platform for crea
 <img width="837" height="336" alt="image" src="https://github.com/user-attachments/assets/2f82ee99-58c6-4bd6-a666-6ec1efce4c5c" />
 <img width="830" height="350" alt="image" src="https://github.com/user-attachments/assets/bd673a75-e5ae-4c40-9187-6b5c7ac97d82" />
 
-**Project Structure**                                                                                                                                                                                
+## **Project Structure**                                                                                                                                                                                
 ```bash
 Live-Session-Toolkit/                                                                                                                                                                                        
 │                                                                                                                                                                                    
@@ -67,14 +67,14 @@ Live-Session-Toolkit/
     └── .env.example
 ```                                                                                                                                                                   
     
-**Installation & Setup**                                                                                                                                                                                
-**1. Clone the Repository**                                                                                                                                                                                                                    
+## **Installation & Setup**                                                                                                                                                                                
+### **1. Clone the Repository**                                                                                                                                                                                                                    
 ```bash
 git clone <your-github-repository-url>
 cd Live-Session-Toolkit
 ```
 
-**2. Frontend Setup**                                                                                                                                                                                                                                
+### **2. Frontend Setup**                                                                                                                                                                                                                                
 Navigate to the frontend:                                                                                                                                                                                                                                                                              
 ```bash
 cd my-app
@@ -91,7 +91,7 @@ The frontend will run on:
 ```bash
 http://localhost:5173
 ```                                                                                                                                                                                                    
-**3. Backend Setup**                                                                                                                                                                                                                                                                                                                    
+### **3. Backend Setup**                                                                                                                                                                                                                                                                                                                    
 Open a new terminal and navigate to the backend:                                                                                                                                                                                                                                                        
 ```bash
 cd backend
@@ -121,7 +121,7 @@ API documentation is available at:
 ```bash
 http://127.0.0.1:8000/docs
 ```                                                                                                                                                                                            
-**API**                                                                                                                                                                                                                                    
+## **API**                                                                                                                                                                                                                                    
 The backend provides RESTful endpoints for:                                                                                                                                                                            
 - Authentication                                                                                                                                                                                                            
 - Sessions                                                                                                                                                                                                        
@@ -132,13 +132,13 @@ The backend provides RESTful endpoints for:
 - Analytics                                                                                                                                                                                                                        
 - AI services                                                                                                                                                                                                                    
 - Real-time session events are handled through WebSockets.                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
-**AI Integration**                                                                                                                                                                                                                                            
+## **AI Integration**                                                                                                                                                                                                                                            
 - The project includes an AI service architecture for:                                                                                                                                                        
 - AI-assisted session planning                                                                                                                                                                                    
 - Interactive activity generation                                                                                                                                                                                    
 - AI assistant functionality                                                                                                                                                                                                                                                                                                                
 - The current development setup supports a mock AI provider, allowing the application to be developed and tested before connecting an external AI provider.                                                                        
-**Real-Time Communication**                                                                                                                                                                                                                                    
+## **Real-Time Communication**                                                                                                                                                                                                                                    
 - WebSockets are used to support real-time session events such as:                                                                                                                                                        
 - Participant joining                                                                                                                                                                                                    
 - Participant leaving                                                                                                                                                                                                    
@@ -146,14 +146,14 @@ The backend provides RESTful endpoints for:
 - Session updates                                                                                                                                                                                                                        
 - Live interaction events                                                                                                                                                                                                                        
 - Media features such as camera, microphone, and screen sharing are handled separately from the backend's WebSocket event system.                                                                                                                                    
-**Future Enhancements**                                                                                                                                                                                                        
+## **Future Enhancements**                                                                                                                                                                                                        
 - PostgreSQL production database                                                                                                                                                                                                    
 - Production AI provider integration                                                                                                                                                                                                        
 - WebRTC-based real-time media communication                                                                                                                                                                                
 - Advanced analytics and reporting                                                                                                                                                                                                            
 - Notifications and email integration                                                                                                                                                                                                                
 - Production deployment and scalability improvements                                                                                                                                                                                                            
-**Project Status**                                                                                                                                                                                                            
+## **Project Status**                                                                                                                                                                                                            
 Development / Internship Project                                                                                                                                                                                
 The project is being developed as a full-stack solution with a React frontend and FastAPI backend, with the architecture designed to support future real-time and AI-powered functionality.                                                                                                                                                                                                                                                    
 This project is developed for educational and internship purposes.                                                                                                                                                                                                                                                                                                                                            
