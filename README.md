@@ -37,6 +37,7 @@ SQLite
 SQLAlchemy ORM                                                                                                                                                                                    
 
 **App Preview**
+
 <img width="842" height="383" alt="image" src="https://github.com/user-attachments/assets/82b87b43-d3d6-4abe-8e02-1a978e297845" />
 <img width="839" height="387" alt="image" src="https://github.com/user-attachments/assets/fd6e0dba-11c2-4f58-8518-f1f9a3c75e11" />
 <img width="836" height="337" alt="image" src="https://github.com/user-attachments/assets/5ebe1ca9-9b13-4a99-a1ca-966bab87f041" />
